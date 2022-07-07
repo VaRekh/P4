@@ -156,6 +156,14 @@ a:hover {
     background: rgba(255, 255, 255, 1);
 }
 
+.icon-black {
+    color:#000!important;
+}
+
+.icon-black:hover {
+    color:rgb(51, 51, 51)!important;
+}
+
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
@@ -734,6 +742,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #000000!important;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -773,14 +784,18 @@ h4 {
     color: #F3976C!important;
 }
 
+.black-text {
+    color: #000000!important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
