@@ -684,7 +684,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    /*max-width: 600px;*/
     margin: auto auto auto auto;
 }
 
@@ -1043,4 +1043,49 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+@media (min-width: 768px) {
+    .nav-fix
+    {
+        position: absolute!important;
+        top: 32%!important;
+        right: 5%!important;
+    }
+    
+    .nav-fix > li a
+    {
+        margin-left: 30px;
+    }
+}
+
+.img-to-text
+{
+    font-size: 20px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.site-navigation > li a
+{
+    text-decoration: underline!important;
+    position: relative!important;
+}
+
+.nav-fix
+{
+    list-style: none!important;
+}
+
+.bloc
+{
+    box-sizing: border-box;
 }
