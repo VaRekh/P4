@@ -1032,32 +1032,7 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
-
-@media (min-width: 768px) {
-    .nav-fix
-    {
-        position: absolute!important;
-        top: 32%!important;
-        right: 5%!important;
-    }
-    
-    .nav-fix > li a
-    {
-        margin-left: 30px;
-    }
-}
+/* ------------------ CORRECTIFS ------------------ */
 
 .img-to-text
 {
@@ -1088,4 +1063,35 @@ h4 {
 .bloc
 {
     box-sizing: border-box;
+}
+
+.color-fix
+{
+    color: #FFF!important;
+}
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-fix
+    {
+        position: absolute!important;
+        top: 32%!important;
+        right: 5%!important;
+    }
+    
+    .nav-fix > li a
+    {
+        margin-left: 30px;
+    }
 }
