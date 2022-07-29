@@ -1069,6 +1069,7 @@ h4 {
 {
     color: #FFF!important;
 }
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
