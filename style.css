@@ -1083,3 +1083,10 @@ h4 {
         text-align: center;
     }
 }
+
+@media (max-width: 767px) {
+    .mobile-fix {
+        display: flex;
+        justify-content: space-between;
+    }
+}
